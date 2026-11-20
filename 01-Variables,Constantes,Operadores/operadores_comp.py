@@ -8,5 +8,6 @@ Operador	Significado	     Ejemplo
 <=	          Menor o igual	3 <= 5 → True
 """
 print(5 == 5)
+print(5 != 5)
 print(5 < 3)
 print(3 <= 5)

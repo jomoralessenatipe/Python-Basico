@@ -9,11 +9,11 @@ instrucciones pertenecen a un bloque de
 código.
 """
 #EJER01.-Comprobar si es mayor de edad
-#edad = int(input("Ingrese la edad:"))#P1
-#if edad>=18:#P2
-#    print("Es Mayor de edad") #P3 
-#else:
-#    print("Es Menor de edad")    
+edad = int(input("Ingrese la edad:"))#P1
+if edad>=18:
+    print("Es Mayor de edad")
+else:
+    print("Es Menor de edad")
 #EJER02.-Aplicar un descuento del 50 a las ventas
 # mayores a 1000
 ventas = float(input("Ingrese las ventas:"))

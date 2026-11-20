@@ -32,8 +32,8 @@ elif compra<500:
 else:
     desc = 15
 totdesc = desc/100
-mondesc=compra-totdesc
+mondesc=compra*totdesc
 total=compra-mondesc
-print(f"El monto de la compra es {round(compra,2)} soles.")
+print(f"El monto de la compra es {round(compra,2):.2f} soles.")
 print(f"El monto descontado es {round(mondesc,2)} soles.")
 print(f"El monto total de es {round(total,2)} soles.")

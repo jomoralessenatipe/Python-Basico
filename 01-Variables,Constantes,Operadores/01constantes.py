@@ -1,5 +1,5 @@
 """
-Costantes son variables que no van a 
+Costantes son espacios de memoria que no van a 
 cambiar su valor en el trasncurso del program
 y se definen en mayusculas X convenciones 
 """
